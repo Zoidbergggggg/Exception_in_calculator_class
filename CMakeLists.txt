@@ -12,4 +12,4 @@ set(CMAKE_BUILD_TYPE Debug)
 endif()
 
 # Вказуємо, що треба зібрати виконуваний файл з main.cpp
-add_executable(Exception_in_calculator_class Exception.cpp)
+add_executable(Exception_in_calculator_class Exception.cpp ClassCalculator.h ClassCalculator.cpp)
